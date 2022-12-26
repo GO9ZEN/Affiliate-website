@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #e4e4e4;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 5rem; */
+    font-size: 16px;
+    gap: 5px;
+}
+
+.pagination .page-num {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #e4e4e4;
+}
+
+.pagination .page-num:hover {
+    background-color: #5F9EA0;
+    color: #fff;
+}
+
+.pagination .active {
+    background-color: #5F9EA0;
+}
+
+/*************************************************************/
+/***** SHOP CARD - (1025px - 1200px)  *****/
+/*************************************************************/
+@media all and (max-width: 1200px) {
+    .pagination {
+        font-size: 14px;
+    }
+}
+
+/*************************************************************/
+/***** SHOP CARD - (769px - 1024px)  *****/
+/*************************************************************/
+@media all and (max-width: 1024px) {
+    .pagination {
+        font-size: 12px;
+    }
+}
+
+/*************************************************************/
+/***** SHOP CARD - (481px - 768px)  *****/
+/*************************************************************/
+@media all and (max-width: 768px) {
+    .pagination {
+        font-size: 10px;
+    }
+}
+
+/*************************************************************/
+/***** SHOP CARD - (321px - 480px)  *****/
+/*************************************************************/
+@media all and (max-width: 480px) {
+    .pagination {
+        font-size: 9px;
+    }
+}
+
+/*************************************************************/
+/***** SHOP CARD - (0px - 320px)  *****/
+/*************************************************************/
+@media all and (max-width: 320px) {
+    .pagination {
+        font-size: 8px;
+    }
+}

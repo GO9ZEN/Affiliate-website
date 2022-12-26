@@ -1,0 +1,63 @@
+.shop-footer {
+    /* height: 500px; */
+    background: #1b1b1b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop-footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 25px;
+}
+
+.shop-footer .logo {
+    margin-bottom: 30px;
+}
+
+.shop-footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.shop-footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+.shop-footer span {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.shop-footer .follow {
+    margin-top: 20px;
+}
+
+.shop-footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.shop-footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+.shop-footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+.shop-footer .follow i:hover, .shop-footer a:hover {
+    color: #088178;
+}
+
+.shop-footer .copyright {
+    width: 100%;
+    text-align: center;
+}

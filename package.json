@@ -1,0 +1,32 @@
+{
+  "name": "affilate-website",
+  "version": "1.0.0",
+  "description": "Arch-View Affilate Website",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node affilate-backend/server",
+    "server": "nodemon affilate-backend/server",
+    "client": "npm start --prefix affilate-frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node affilate-backend/seeder",
+    "data:destroy": "node affilate-backend/seeder -d"
+  },
+  "author": "Sarasa Silva",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20"
+  }
+}

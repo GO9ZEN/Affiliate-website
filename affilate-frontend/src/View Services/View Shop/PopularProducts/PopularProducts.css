@@ -1,0 +1,166 @@
+/****************************************/
+/***** RECOMMANDATIONS *****/
+/****************************************/
+.recommandations {
+    background: #002222;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    border: 1px solid #e4e4e4;
+    margin: 25px 25px 0px 25px;
+}
+
+.recommand-topic-part {
+    display: flex;
+    align-items: center;    
+    height: 40px;
+    width: 100%;
+    /* background: red; */
+    border-radius: 10px 10px 0 0;
+}
+
+.recommand-hr-part {
+    height: 1px;
+    width: 100%;
+    background: #e4e4e4;
+}
+
+.recommand-topic-part-h4 {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e4e4e4;
+}
+
+.recommand-product-part {
+    height: 310px;
+    width: 95%;
+    /* background: red; */
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.swiper-slide-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (1025px - 1200px)  *****/
+/*************************************************************/
+@media all and (max-width: 1200px) {
+    .recommandations {
+        height: 320px;
+    }
+
+    .recommand-topic-part {
+        height: 35px;
+    }
+    
+    .recommand-topic-part-h4 {
+        margin-left: 18px;
+        font-size: 18px;
+    }
+    
+    .recommand-product-part {
+        height: 285px;
+    }
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (769px - 1024px)  *****/
+/*************************************************************/
+@media all and (max-width: 1024px) {
+    .recommandations {
+        height: 290px;
+    }
+
+    .recommand-topic-part {
+        height: 30px;
+    }
+    
+    .recommand-topic-part-h4 {
+        margin-left: 16px;
+        font-size: 16px;
+    }
+    
+    .recommand-product-part {
+        height: 260px;
+    }
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (481px - 768px)  *****/
+/*************************************************************/
+@media all and (max-width: 768px) {
+    .recommandations {
+        height: 260px;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .recommand-topic-part {
+        height: 25px;
+    }
+    
+    .recommand-topic-part-h4 {
+        margin-left: 14px;
+        font-size: 14px;
+    }
+    
+    .recommand-product-part {
+        height: 235px;
+    }
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (321px - 480px)  *****/
+/*************************************************************/
+@media all and (max-width: 480px) {
+    .recommandations {
+        height: 230px;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .recommand-topic-part {
+        height: 20px;
+    }
+    
+    .recommand-topic-part-h4 {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    
+    .recommand-product-part {
+        height: 210px;
+    }
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (0px - 320px)  *****/
+/*************************************************************/
+@media all and (max-width: 320px) {
+    .recommandations {
+        height: 200px;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .recommand-topic-part {
+        height: 15px;
+    }
+    
+    .recommand-topic-part-h4 {
+        margin-left: 8px;
+        font-size: 8px;
+    }
+    
+    .recommand-product-part {
+        height: 185px;
+    }
+}

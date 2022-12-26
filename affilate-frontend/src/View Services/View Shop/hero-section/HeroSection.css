@@ -1,0 +1,192 @@
+.hero-carousel {
+    width: 100%;
+    height: 400px;
+}
+
+.hero-carousel-item {
+    width: 100%;
+    height: 400px;
+    background-color: #023e8a; /* #003865 */
+    background-image: linear-gradient(#023e8a, #0096c7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-carousel-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-carousel-item-span {
+    font-size: 40px;
+    color: #e4e4e4;
+    text-align: center;
+}
+
+.hero-carousel-item-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 140px;
+    background: #03045e;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #e4e4e4;
+}
+
+.hero-carousel-item-button span {
+    color: #e4e4e4;
+    font-size: 18px;
+}
+
+.hero-carousel-item-button:hover {
+    background: #023e8a;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+    opacity: 1;
+    border: #e4e4e4 solid 1px;
+    background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+    background-color: #03045e;
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (1025px - 1200px)  *****/
+/*************************************************************/
+@media all and (max-width: 1200px) {
+    .hero-carousel {
+        height: 360px;
+    }
+    
+    .hero-carousel-item {
+        height: 360px;
+        gap: 18px;
+    }
+
+    .hero-carousel-item-span {
+        font-size: 36px;
+    }
+    
+    .hero-carousel-item-button {
+        height: 36px;
+        width: 125px;
+    }
+    
+    .hero-carousel-item-button span {
+        font-size: 16px;
+    }
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (769px - 1024px)  *****/
+/*************************************************************/
+@media all and (max-width: 1024px) {
+    .hero-carousel {
+        height: 320px;
+    }
+    
+    .hero-carousel-item {
+        height: 320px;
+        gap: 16px;
+    }
+
+    .hero-carousel-item-span {
+        font-size: 32px;
+    }
+    
+    .hero-carousel-item-button {
+        height: 32px;
+        width: 110px;
+    }
+    
+    .hero-carousel-item-button span {
+        font-size: 14px;
+    }
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (481px - 768px)  *****/
+/*************************************************************/
+@media all and (max-width: 768px) {
+    .hero-carousel {
+        height: 280px;
+    }
+    
+    .hero-carousel-item {
+        height: 280px;
+        gap: 14px;
+    }
+
+    .hero-carousel-item-span {
+        font-size: 24px;
+    }
+    
+    .hero-carousel-item-button {
+        height: 28px;
+        width: 95px;
+    }
+    
+    .hero-carousel-item-button span {
+        font-size: 12px;
+    }
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (321px - 480px)  *****/
+/*************************************************************/
+@media all and (max-width: 480px) {
+    .hero-carousel {
+        height: 240px;
+    }
+    
+    .hero-carousel-item {
+        height: 240px;
+        gap: 12px;
+    }
+
+    .hero-carousel-item-span {
+        font-size: 16px;
+    }
+    
+    .hero-carousel-item-button {
+        height: 24px;
+        width: 80px;
+    }
+    
+    .hero-carousel-item-button span {
+        font-size: 10px;
+    }
+}
+
+/*************************************************************/
+/***** ARCH-SERVICES-NAVBAR - (0px - 320px)  *****/
+/*************************************************************/
+@media all and (max-width: 320px) {
+    .hero-carousel {
+        height: 200px;
+    }
+    
+    .hero-carousel-item {
+        height: 200px;
+        gap: 10px;
+    }
+
+    .hero-carousel-item-span {
+        font-size: 12px;
+    }
+    
+    .hero-carousel-item-button {
+        height: 20px;
+        width: 65px;
+    }
+    
+    .hero-carousel-item-button span {
+        font-size: 8px;
+    }
+}

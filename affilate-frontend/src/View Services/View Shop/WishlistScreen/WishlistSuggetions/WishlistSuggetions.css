@@ -1,0 +1,210 @@
+/****************************************/
+/***** SUGGETIONS-WISHLIST *****/
+/****************************************/
+.suggetions-wishlist-items {
+    background: #002222;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    min-height: 350px;
+    border: 1px solid #e4e4e4;
+    margin: 25px 25px 0px 25px;
+    overflow: hidden;
+}
+
+.suggetions-wishlist-items-part {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    min-height: 300px;
+    width: 95%;
+    border-radius: 10px;
+    gap: 25px;
+    /* background: rebeccapurple; */
+}
+
+.suggetions-wishlist-topic-part {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.suggetions-wishlist-topic-part-h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.suggetions-wishlist-items-more {
+    color: #5F9EA0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.suggetions-wishlist-items-more:hover {
+    color: #009C77;
+} 
+
+.hr-part {
+    height: 1px;
+    width: 100%;
+    background: #e4e4e4;
+}
+
+.suggetions-wishlist-item-part-sample {
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* .swiper-slide-suggetions-wishlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .suggetions-wishlist-choice {
+    display: flex;
+    gap: 20px;
+}  */
+
+/*************************************************************/
+/***** SUGGETIONS-WISHLIST - (1025px - 1200px)  *****/
+/*************************************************************/
+@media all and (max-width: 1200px) {
+    .suggetions-wishlist-items {
+        min-height: 320px;
+    }
+
+    .suggetions-wishlist-items-part {
+        margin: 23px 0;
+        min-height: 270px;
+        gap: 23px;
+    }
+    
+    .suggetions-wishlist-topic-part {
+        gap: 23px;
+    }
+    
+    .suggetions-wishlist-topic-part-h4 {
+        font-size: 19px;
+    }
+    
+    .suggetions-wishlist-items-more {
+        font-size: 17px;
+    }
+}
+
+/*************************************************************/
+/***** SUGGETIONS-WISHLIST - (769px - 1024px)  *****/
+/*************************************************************/
+@media all and (max-width: 1024px) {
+    .suggetions-wishlist-items {
+        min-height: 290px;
+    }
+
+    .suggetions-wishlist-items-part {
+        margin: 21px 0;
+        min-height: 240px;
+        gap: 21px;
+    }
+    
+    .suggetions-wishlist-topic-part {
+        gap: 21px;
+    }
+    
+    .suggetions-wishlist-topic-part-h4 {
+        font-size: 18px;
+    }
+    
+    .suggetions-wishlist-items-more {
+        font-size: 16px;
+    }
+}
+
+/*************************************************************/
+/***** SUGGETIONS-WISHLIST - (481px - 768px)  *****/
+/*************************************************************/
+@media all and (max-width: 768px) {
+    .suggetions-wishlist-items {
+        min-height: 260px;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .suggetions-wishlist-items-part {
+        margin: 19px 0;
+        min-height: 210px;
+        gap: 19px;
+    }
+    
+    .suggetions-wishlist-topic-part {
+        gap: 19px;
+    }
+    
+    .suggetions-wishlist-topic-part-h4 {
+        font-size: 17px;
+    }
+    
+    .suggetions-wishlist-items-more {
+        font-size: 15px;
+    }
+}
+
+/*************************************************************/
+/***** SUGGETIONS-WISHLIST - (321px - 480px)  *****/
+/*************************************************************/
+@media all and (max-width: 480px) {
+    .suggetions-wishlist-items {
+        min-height: 230px;
+    }
+
+    .suggetions-wishlist-items-part {
+        margin: 17px 0;
+        min-height: 180px;
+        gap: 17px;
+    }
+    
+    .suggetions-wishlist-topic-part {
+        gap: 17px;
+    }
+    
+    .suggetions-wishlist-topic-part-h4 {
+        font-size: 16px;
+    }
+    
+    .suggetions-wishlist-items-more {
+        font-size: 14px;
+    }
+}
+
+/*************************************************************/
+/***** SUGGETIONS-WISHLIST - (0px - 320px)  *****/
+/*************************************************************/
+@media all and (max-width: 320px) {
+    .suggetions-wishlist-items {
+        min-height: 200px;
+    }
+
+    .suggetions-wishlist-items-part {
+        margin: 15px 0;
+        min-height: 150px;
+        gap: 15px;
+    }
+    
+    .suggetions-wishlist-topic-part {
+        gap: 14px;
+    }
+    
+    .suggetions-wishlist-topic-part-h4 {
+        font-size: 15px;
+    }
+    
+    .suggetions-wishlist-items-more {
+        font-size: 13px;
+    }
+}
+
